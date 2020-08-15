@@ -1,0 +1,27 @@
+server:
+  port: 8080
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      enabled: true
+      max-request-size: 10MB
+  datasource:
+    url: jdbc:mysql://localhost:3306/smart_family?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: 618731zls
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password: 618731zls
+    jedis:
+      pool:
+        max-active: 20
+    lettuce:
+      shutdown-timeout: 1000
+logging:
+  config: classpath:logback.xml
+  file:
+    path: F:\ideawork\log

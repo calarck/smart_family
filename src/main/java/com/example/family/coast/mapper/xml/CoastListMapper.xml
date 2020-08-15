@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.family.coast.mapper.CoastListMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.family.coast.entity.CoastList">
+        <id column="coast_id" property="coastId" />
+        <result column="coastor_id" property="coastorId" />
+        <result column="coast_type" property="coastType" />
+        <result column="coast_count" property="coastCount" />
+        <result column="creator_id" property="creatorId" />
+        <result column="create_time" property="createTime" />
+        <result column="updateor_id" property="updateorId" />
+        <result column="update_time" property="updateTime" />
+        <result column="remark" property="remark" />
+        <result column="is_delete" property="isDelete" />
+    </resultMap>
+
+</mapper>
