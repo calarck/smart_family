@@ -18,4 +18,11 @@ public interface IUserInfoService extends IService<UserInfo> {
 
     public UserInfoDto2 getUserMsg();
 
+    public UserInfoDto2 registerTenant(UserInfo userInfo);
+
+    public UserInfoDto2 registerFamily(UserInfo userInfo);
+
+    public UserInfoDto2 registerChildren(UserInfo userInfo);
+
+    public String updateUserPS(String oldPs,String newPs);
 }

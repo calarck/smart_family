@@ -13,5 +13,7 @@
         <result column="updator_id" property="updatorId" />
         <result column="is_delete" property="isDelete" />
     </resultMap>
-
+    <select id="getAllItem" resultMap="BaseResultMap">
+        select idcoast_item,coast_name,coast_type from coast_item
+    </select>
 </mapper>

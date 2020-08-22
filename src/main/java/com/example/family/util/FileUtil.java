@@ -5,7 +5,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.File;
 
 public class FileUtil {
-    private static String saveImage(MultipartFile file){
+    public static String saveImage(MultipartFile file){
         if (file!=null&&file.getSize()>0){
             String fileName=file.getOriginalFilename();
 //            String suffixName=fileName.substring(fileName.lastIndexOf("."));
@@ -20,8 +20,9 @@ public class FileUtil {
                 return "/calarck/image/"+fileName;
             }catch (Exception e){
                 e.printStackTrace();
+                return e.getMessage();
             }
         }
-        return null;
+        return "文件为空";
     }
 }

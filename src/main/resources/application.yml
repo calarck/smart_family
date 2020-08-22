@@ -25,3 +25,6 @@ logging:
   config: classpath:logback.xml
   file:
     path: F:\ideawork\log
+
+calarck:
+  base_image_path: /calarck/defalult.jpg

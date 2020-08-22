@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class UserInfoDto {
-    private Integer userId;
+    private Long userId;
 
     private String userName;
 
@@ -12,7 +12,7 @@ public class UserInfoDto {
 
     private Long loginDate;
 
-    public UserInfoDto(Integer userId, String userName, String userPhone, Long loginDate) {
+    public UserInfoDto(Long userId, String userName, String userPhone, Long loginDate) {
         this.userId = userId;
         this.userName = userName;
         this.userPhone = userPhone;

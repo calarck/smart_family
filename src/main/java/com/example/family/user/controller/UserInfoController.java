@@ -39,5 +39,37 @@ public class UserInfoController {
     public Response userMsg(){
         return Response.newSuccessInstance(userInfoService.getUserMsg());
     }
+
+    @PostMapping("/registerTenant")
+    @ApiOperation(value = "租户注册",notes = "租户注册",httpMethod = "POST")
+    @PassToken
+    public Response registerTenant(@RequestBody UserInfo info){
+        return Response.newSuccessInstance(userInfoService.registerTenant(info));
+    }
+
+    @PostMapping("/registerFamily")
+    @ApiOperation(value = "家人注册",notes = "家人注册",httpMethod = "POST")
+    @PassToken
+    public Response registerFamily(@RequestBody UserInfo info){
+        return Response.newSuccessInstance(userInfoService.registerFamily(info));
+    }
+
+    @PostMapping("/registerChildren")
+    @ApiOperation(value = "孩子注册",notes = "孩子注册",httpMethod = "POST")
+    @PassToken
+    public Response registerChildren(@RequestBody UserInfo info){
+        return Response.newSuccessInstance(userInfoService.registerChildren(info));
+    }
+
+    @GetMapping("/updateUserPS")
+    @UserLoginToken
+    @ApiOperation(value = "更新密码",notes = "更新密码",httpMethod = "GET")
+    @ApiImplicitParams({
+            @ApiImplicitParam(value = "olderPs",name = "olderPs",required = true,dataType = "String"),
+            @ApiImplicitParam(value = "newPs",name = "newPs",required = true,dataType = "String")
+    })
+    public Response updateUserPS(String olderPs,String newPs){
+        return Response.newSuccessInstance(userInfoService.updateUserPS(olderPs,newPs));
+    }
 }
 

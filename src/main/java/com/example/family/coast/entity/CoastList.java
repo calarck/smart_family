@@ -1,9 +1,7 @@
 package com.example.family.coast.entity;
 
 import java.math.BigDecimal;
-import com.baomidou.mybatisplus.annotation.IdType;
 import java.time.LocalDateTime;
-import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -16,7 +14,7 @@ import lombok.EqualsAndHashCode;
  * </p>
  *
  * @author calarck
- * @since 2020-08-02
+ * @since 2020-08-16
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -25,8 +23,7 @@ public class CoastList implements Serializable {
 
     private static final long serialVersionUID=1L;
 
-    @TableId(value = "coast_id", type = IdType.ASSIGN_ID)
-    private Integer coastId;
+    private Long coastId;
 
     private Integer coastorId;
 

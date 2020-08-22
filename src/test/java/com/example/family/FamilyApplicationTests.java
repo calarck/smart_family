@@ -39,12 +39,19 @@ class FamilyApplicationTests {
         log.info(JSONObject.toJSONString(userInfo));*/
         UserInfo byId = iUserInfoService.getById(1130621);
         UserType byId1 = iUserTypeService.getById(1);
+        UserInfo userInfo = userInfoMapper.selectById(Long.parseLong("1130621"));
+        System.out.println(userInfo);
     }
 
     @Test
     void redisTest(){
         //redisUtil.set("springboot","123",5*60);
         System.out.println(redisUtil.get("springboot"));
+    }
+
+    @Test
+    void testDataLong(){
+        System.out.println(System.currentTimeMillis());
     }
 
 }

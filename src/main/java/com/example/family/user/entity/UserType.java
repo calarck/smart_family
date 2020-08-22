@@ -2,9 +2,6 @@ package com.example.family.user.entity;
 
 import java.time.LocalDateTime;
 import java.io.Serializable;
-
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -16,7 +13,7 @@ import lombok.EqualsAndHashCode;
  * </p>
  *
  * @author calarck
- * @since 2020-08-02
+ * @since 2020-08-16
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
