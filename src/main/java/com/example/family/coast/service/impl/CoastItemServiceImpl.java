@@ -13,6 +13,7 @@ import com.example.family.util.DateTimeUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import javax.xml.crypto.Data;
 import java.util.List;
 
@@ -27,7 +28,7 @@ import java.util.List;
 @Service
 public class CoastItemServiceImpl extends ServiceImpl<CoastItemMapper, CoastItem> implements ICoastItemService {
 
-    @Autowired
+    @Resource
     private CoastItemMapper coastItemMapper;
 
     @Override
@@ -56,7 +57,7 @@ public class CoastItemServiceImpl extends ServiceImpl<CoastItemMapper, CoastItem
         itemQueryWrapper.set("updator_id",BaseHandler.getCurrentUserID());
         itemQueryWrapper.set("update_time",DateTimeUtil.getCurrentDateTime());
         super.update(itemQueryWrapper);
-        return null;
+        return "删除成功";
     }
 
     @Override
@@ -68,6 +69,14 @@ public class CoastItemServiceImpl extends ServiceImpl<CoastItemMapper, CoastItem
     public String updateItem(Long id, String name, Integer type) {
         //TODO 要判断项目是否存在
         DataUtil.isNull(id,"要更新的项目为空");
-        return null;
+        if (!BaseHandler.getCurrentUserType().contains("超级")){
+            return "您无权限更新";
+        }
+        CoastItem coastItemByID = coastItemMapper.getCoastItemByID(id);
+        DataUtil.isNull(coastItemByID);
+        coastItemByID.setCoastType(type);
+        coastItemByID.setCoastName(name);
+        super.updateById(coastItemByID);
+        return "更新成功";
     }
 }

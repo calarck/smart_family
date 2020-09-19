@@ -7,6 +7,7 @@ import com.example.family.baseHandler.BaseHandler;
 import com.example.family.commen.FamilyException;
 import com.example.family.user.dto.UserInfoDto2;
 import com.example.family.user.entity.UserInfo;
+import com.example.family.user.entity.UserType;
 import com.example.family.user.mapper.UserInfoMapper;
 import com.example.family.user.service.IUserInfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -16,6 +17,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 
+import javax.annotation.Resource;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -31,7 +33,7 @@ import java.time.format.DateTimeFormatter;
 @Service
 public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> implements IUserInfoService {
 
-    @Autowired
+    @Resource
     private UserInfoMapper userInfoMapper;
     @Autowired
     private RedisUtil redisUtil;
@@ -134,6 +136,21 @@ public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> i
         updateWrapper.eq("user_fd_id",userId);
         update(wrapper);
         return "更新成功,请重新登入";
+    }
+
+    @Override
+    public String deleteUserById(Long userId) {
+        DataUtil.isNull(userId,"用户ID不能为空");;
+        if (!BaseHandler.getCurrentUserType().contains("超级管理员")){
+            return "权限不够";
+        }
+        UpdateWrapper<UserInfo> userTypeUpdateWrapper=new UpdateWrapper<>();
+        userTypeUpdateWrapper.set("is_delete",1);
+        userTypeUpdateWrapper.set("updator_id",BaseHandler.getCurrentUserID());
+        userTypeUpdateWrapper.set("update_time",DateTimeUtil.getDateTime());
+        userTypeUpdateWrapper.eq("user_fd_id",userId);
+        super.update(userTypeUpdateWrapper);
+        return "删除成功";
     }
 
 }

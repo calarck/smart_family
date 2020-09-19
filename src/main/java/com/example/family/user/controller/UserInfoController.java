@@ -71,5 +71,15 @@ public class UserInfoController {
     public Response updateUserPS(String olderPs,String newPs){
         return Response.newSuccessInstance(userInfoService.updateUserPS(olderPs,newPs));
     }
+
+    @GetMapping("/deleteUser")
+    @UserLoginToken
+    @ApiOperation(value = "根据用户ID删除用户",notes = "根据用户ID删除用户",httpMethod = "GET")
+    @ApiImplicitParams({
+            @ApiImplicitParam(value = "userId",name = "userId",required = true,dataType = "Long")
+    })
+    public Response DeleteUserById(Long userId){
+        return Response.newSuccessInstance(userInfoService.deleteUserById(userId));
+    }
 }
 

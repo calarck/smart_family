@@ -25,4 +25,6 @@ public interface IUserInfoService extends IService<UserInfo> {
     public UserInfoDto2 registerChildren(UserInfo userInfo);
 
     public String updateUserPS(String oldPs,String newPs);
+
+    public String deleteUserById(Long userId);
 }

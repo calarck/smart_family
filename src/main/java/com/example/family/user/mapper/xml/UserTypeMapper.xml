@@ -13,4 +13,18 @@
         <result column="is_delete" property="isDelete" />
     </resultMap>
 
+    <insert id="addUserType" parameterType="com.example.family.user.entity.UserType">
+        <![CDATA[insert  into user_type(type_id,type_name,create_id,creator_time,update_time,update_id,is_delete)
+                    values(#{typeId},#{typeName},#{createId},#{creatorTime},#{updateTime},#{updateId},#{isDelete})]]>
+    </insert>
+    <update id="updateUserType" parameterType="com.example.family.user.entity.UserType">
+        <![CDATA[update user_type where set type_name=#{typeName}],create_id=#{createId},creator_time=#{creatorTime},
+                   update_time=#{updateTime},is_delete=#{isDelete} where type_id=#{typeId}]]>
+    </update>
+
+    <select id="getUseTypeByCondition" resultType="com.example.family.user.entity.UserType">
+        <![CDATA[SELECT * FROM user_type]]> <if test="typeName!=null"> where type_name=#{typeName}</if></select>
+    <select id="getUserType" resultType="com.example.family.user.entity.UserType">
+        <![CDATA[select * from user_type where type_id=#{typeId}]]]>
+    </select>
 </mapper>

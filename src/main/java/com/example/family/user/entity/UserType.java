@@ -22,17 +22,17 @@ public class UserType implements Serializable {
 
     private static final long serialVersionUID=1L;
 
-    private Integer typeId;
+    private Long typeId;
 
     private String typeName;
 
-    private Integer createId;
+    private Long createId;
 
     private LocalDateTime creatorTime;
 
     private LocalDateTime updateTime;
 
-    private Integer updateId;
+    private Long updateId;
 
     private Integer isDelete;
 

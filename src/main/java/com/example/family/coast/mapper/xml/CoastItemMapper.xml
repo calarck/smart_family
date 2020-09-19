@@ -16,4 +16,7 @@
     <select id="getAllItem" resultMap="BaseResultMap">
         select idcoast_item,coast_name,coast_type from coast_item
     </select>
+    <select id="getCoastItemByID" resultType="com.example.family.coast.entity.CoastItem">
+    <![CDATA[SELECT * FROM coast_item]]> <if test="itemId!=null">where idcoast_item=#{itemId}</if>
+    </select>
 </mapper>
