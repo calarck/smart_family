@@ -46,6 +46,7 @@ public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> i
         QueryWrapper<UserInfo> wrapper=new QueryWrapper<>();
         wrapper.eq("user_phone",userInfo.getUserPhone());
         wrapper.eq("user_pass",userInfo.getUserPass());
+        if (userInfo.getUserType()!=null)
         wrapper.eq("user_type",userInfo.getUserType());
         UserInfo userInfo1 = super.getOne(wrapper);
         if (null==userInfo1){
