@@ -27,4 +27,5 @@ logging:
     path: F:\ideawork\log
 
 calarck:
-  base_image_path: /calarck/defalult.jpg
+  base_image_path: /calarck/images/defalult.jpg
+  local_service_address: E:\uploadData\calarck\images

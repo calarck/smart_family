@@ -38,7 +38,7 @@ public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> i
     @Autowired
     private RedisUtil redisUtil;
 
-    @Value("base_image_path")
+    @Value("${calarck.base_image_path}")
     private String baseImagePath;
 
     @Override
@@ -54,6 +54,7 @@ public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> i
         }
         String token= JwtUtil.getToken(userInfo1);
         redisUtil.set(token,token,60*60*24);
+        userInfo1.setUserImage("http://"+NetUtil.getInstance().getIpv4()+":8086"+baseImagePath);
         UserInfoDto2 dto2= MapperUtil.INSTANCE.map(UserInfoDto2.class,userInfo1);
         dto2.setToken(token);
         return dto2;
@@ -62,6 +63,7 @@ public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> i
     @Override
     public UserInfoDto2 getUserMsg() {
         UserInfo byId = getOne(new QueryWrapper<UserInfo>().eq("user_fd_id",BaseHandler.getCurrentUserID()));
+        byId.setUserImage("http://"+NetUtil.getInstance().getIpv4()+":8086"+baseImagePath);
         UserInfoDto2 dto2=MapperUtil.INSTANCE.map(UserInfoDto2.class,byId);
         return dto2;
     }
