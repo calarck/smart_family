@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 @Data
 public class UserInfoDto2 {
 
-    private Integer userFdId;
+    private Long userFdId;
 
     private String userName;
 
