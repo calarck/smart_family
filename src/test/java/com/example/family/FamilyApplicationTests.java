@@ -20,7 +20,7 @@ import javax.annotation.Resource;
 @SpringBootTest
 class FamilyApplicationTests {
 
-    @Resource
+    @Autowired
     private UserInfoMapper userInfoMapper;
     @Autowired
     private IUserInfoService iUserInfoService;
@@ -52,6 +52,11 @@ class FamilyApplicationTests {
     @Test
     void testDataLong(){
         System.out.println(System.currentTimeMillis());
+    }
+
+    @Test
+    void testSelectAllUser(){
+        System.out.println(userInfoMapper.getAllUser());
     }
 
 }

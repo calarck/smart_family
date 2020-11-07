@@ -14,5 +14,8 @@
         <result column="updator_id" property="updatorId" />
         <result column="is_delete" property="isDelete" />
     </resultMap>
+    <select id="getAllUser" resultMap="BaseResultMap">
+        <![CDATA[select * from user_info where user_type !=1]]>
+    </select>
 
 </mapper>

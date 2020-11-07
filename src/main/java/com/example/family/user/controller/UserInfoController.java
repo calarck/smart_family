@@ -81,5 +81,12 @@ public class UserInfoController {
     public Response DeleteUserById(Long userId){
         return Response.newSuccessInstance(userInfoService.deleteUserById(userId));
     }
+
+    @GetMapping("/getAllUser")
+    @UserLoginToken
+    @ApiOperation(value ="获取所有用户",notes = "获取所有用户",httpMethod = "GET")
+    public Response getAllUser(){
+        return Response.newSuccessInstance(userInfoService.getAllUser());
+    }
 }
 

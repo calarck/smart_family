@@ -4,6 +4,8 @@ import com.example.family.user.dto.UserInfoDto2;
 import com.example.family.user.entity.UserInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
+import java.util.List;
+
 /**
  * <p>
  *  服务类
@@ -27,4 +29,6 @@ public interface IUserInfoService extends IService<UserInfo> {
     public String updateUserPS(String oldPs,String newPs);
 
     public String deleteUserById(Long userId);
+
+    public List<UserInfoDto2> getAllUser();
 }

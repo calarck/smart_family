@@ -21,6 +21,7 @@ import javax.annotation.Resource;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.List;
 
 /**
  * <p>
@@ -33,13 +34,15 @@ import java.time.format.DateTimeFormatter;
 @Service
 public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> implements IUserInfoService {
 
-    @Resource
+    @Autowired
     private UserInfoMapper userInfoMapper;
     @Autowired
     private RedisUtil redisUtil;
 
     @Value("${calarck.base_image_path}")
     private String baseImagePath;
+
+    private String serviceIp = "http://"+NetUtil.getInstance().getIpv4()+":8086";
 
     @Override
     public UserInfoDto2 loginByPhone(UserInfo userInfo) {
@@ -154,6 +157,15 @@ public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> i
         userTypeUpdateWrapper.eq("user_fd_id",userId);
         super.update(userTypeUpdateWrapper);
         return "删除成功";
+    }
+
+    @Override
+    public List<UserInfoDto2> getAllUser() {
+        List<UserInfo> userInfos = userInfoMapper.getAllUser();
+        for (UserInfo info :userInfos) {
+            info.setUserImage(serviceIp+info.getUserImage());
+        }
+        return MapperUtil.INSTANCE.mapAsList(UserInfoDto2.class,userInfos);
     }
 
 }
