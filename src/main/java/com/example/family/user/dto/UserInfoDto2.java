@@ -23,6 +23,8 @@ public class UserInfoDto2 {
 
     private Integer isDelete;
 
+    private String address;
+
     private String token;
 
 }

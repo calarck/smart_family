@@ -12,6 +12,7 @@
         <result column="user_type" property="userType" />
         <result column="update_time" property="updateTime" />
         <result column="updator_id" property="updatorId" />
+        <result column="address" property="address" />
         <result column="is_delete" property="isDelete" />
     </resultMap>
     <select id="getAllUser" resultMap="BaseResultMap">

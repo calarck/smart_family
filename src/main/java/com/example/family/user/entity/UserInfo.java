@@ -13,7 +13,7 @@ import lombok.EqualsAndHashCode;
  * </p>
  *
  * @author calarck
- * @since 2020-08-16
+ * @since 2020-11-21
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -37,6 +37,9 @@ public class UserInfo implements Serializable {
     private LocalDateTime updateTime;
 
     private Integer updatorId;
+
+    @ApiModelProperty(value = "地址")
+    private String address;
 
     private Integer isDelete;
 

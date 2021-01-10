@@ -1431,3 +1431,1167 @@ java.lang.NumberFormatException: For input string: ""
 20:16:07.341 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 20:16:07.351 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
 20:16:27.903 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+15:10:55.727 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 11904 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+15:10:55.776 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+15:10:58.142 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+15:10:58.150 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:10:58.245 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 0 Redis repository interfaces.
+15:10:59.140 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$65cce54d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:10:59.876 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:10:59.896 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:10:59.897 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:10:59.897 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+15:11:00.226 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:11:00.226 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4334 ms
+15:11:02.288 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+15:11:02.800 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+15:11:05.620 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+15:11:05.875 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+15:11:07.196 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+15:11:07.558 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:11:08.342 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:11:08.391 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:11:08.394 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+15:11:08.461 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:11:08.591 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+15:11:09.232 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 14.698 seconds (JVM running for 21.067)
+15:35:37.839 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:35:37.911 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:35:38.086 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 173 ms
+15:50:32.893 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:50:36.199 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:01:10.731 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+16:01:11.893 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:01:11.909 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:01:45.271 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 2616 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+16:01:45.275 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+16:01:47.645 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:01:47.650 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:01:47.722 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45ms. Found 0 Redis repository interfaces.
+16:01:48.197 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$2284d2ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:01:48.653 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:01:48.664 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:01:48.665 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:01:48.665 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+16:01:48.812 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:01:48.812 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3474 ms
+16:01:50.118 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+16:01:50.340 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+16:01:52.022 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+16:01:52.174 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+16:01:52.637 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:01:52.751 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+16:01:53.052 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:01:53.074 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:01:53.075 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+16:01:53.100 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+16:01:53.143 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+16:01:53.421 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 8.797 seconds (JVM running for 10.839)
+16:03:56.102 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:03:56.102 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:03:56.116 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+16:04:01.362 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:04:04.370 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:07:31.081 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+16:07:32.361 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:07:32.378 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+12:21:05.988 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 4516 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+12:21:06.011 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+12:21:07.473 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+12:21:07.477 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+12:21:07.547 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 0 Redis repository interfaces.
+12:21:07.889 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$6f355289] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:21:08.361 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:21:08.385 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+12:21:08.386 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:21:08.386 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+12:21:08.731 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:21:08.732 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2606 ms
+12:21:10.140 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+12:21:10.556 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+12:21:12.186 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+12:21:12.425 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+12:21:12.865 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+12:21:12.981 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:21:13.374 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+12:21:13.392 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:21:13.393 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+12:21:13.414 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+12:21:13.454 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+12:21:13.790 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 8.718 seconds (JVM running for 14.195)
+12:24:46.317 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:24:46.317 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:24:46.326 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+12:24:46.591 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:24:50.337 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:38:02.335 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h45m40s439ms452µs300ns).
+15:44:01.174 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+15:44:02.416 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:44:02.452 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:52:14.469 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 13616 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+15:52:14.484 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+15:52:15.905 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+15:52:15.909 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:52:15.980 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 Redis repository interfaces.
+15:52:16.338 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$d430bfa2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:52:16.783 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:52:16.797 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:52:16.797 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:52:16.798 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+15:52:16.992 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:52:16.992 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2428 ms
+15:52:18.494 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+15:52:18.727 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+15:52:21.974 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+15:52:22.150 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+15:52:22.688 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+15:52:22.814 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:52:23.299 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:52:23.323 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:52:23.324 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+15:52:23.350 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:52:23.394 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+15:52:23.707 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 9.819 seconds (JVM running for 14.572)
+15:52:40.564 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:52:40.564 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:52:40.573 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+15:53:38.390 [http-nio-8080-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:53:40.698 [http-nio-8080-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:54:36.273 [http-nio-8080-exec-1] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+15:54:36.329 [http-nio-8080-exec-1] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#59e7564b:0/SimpleConnection@15ca8adf [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57046]
+15:54:36.861 [rabbitConnectionFactory1] INFO  c.e.f.m.service.MessagePushService - 消息确认:NO_ROUTE
+15:54:36.863 [rabbitConnectionFactory1] INFO  c.e.f.m.service.MessagePushService - 消息确认:null
+16:03:33.893 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+16:03:35.157 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:03:35.175 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:03:48.459 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 8756 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+16:03:48.463 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+16:03:50.001 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:03:50.005 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:03:50.066 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 Redis repository interfaces.
+16:03:50.374 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$8917296d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:03:50.896 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:03:50.907 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:03:50.907 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:03:50.908 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+16:03:51.063 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:03:51.063 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2522 ms
+16:03:52.671 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+16:03:52.875 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+16:03:55.773 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+16:03:55.925 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+16:03:56.394 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:03:56.508 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+16:03:56.910 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:03:56.927 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:03:56.928 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+16:03:56.951 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+16:03:56.991 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+16:03:57.272 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 9.464 seconds (JVM running for 12.475)
+16:07:01.821 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:07:01.821 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:07:01.833 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+16:07:02.142 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:07:02.714 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:07:02.808 [http-nio-8080-exec-2] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+16:07:02.864 [http-nio-8080-exec-2] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#799f354a:0/SimpleConnection@36f8e073 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57418]
+16:07:02.996 [rabbitConnectionFactory1] INFO  c.e.f.m.service.MessagePushService - 消息确认:null
+17:46:21.393 [rabbitConnectionFactory2] INFO  c.e.f.m.service.MessagePushService - 消息确认:null
+17:49:12.672 [rabbitConnectionFactory3] INFO  c.e.f.m.service.MessagePushService - 消息确认:null
+18:03:21.661 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+18:03:23.104 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:03:23.154 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:03:45.983 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 5096 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+18:03:46.015 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+18:03:48.760 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+18:03:48.764 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:03:48.831 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 Redis repository interfaces.
+18:03:49.204 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$5bdd4716] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:03:49.725 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:03:49.749 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:03:49.759 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:03:49.759 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+18:03:50.471 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:03:50.471 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4348 ms
+18:03:51.980 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+18:03:52.429 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+18:03:56.725 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+18:03:57.085 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+18:03:57.750 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+18:03:57.895 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:03:58.588 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:03:58.626 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:03:58.628 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+18:03:58.676 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+18:03:58.729 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+18:03:59.170 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 14.3 seconds (JVM running for 18.313)
+18:06:24.073 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+21:13:43.290 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 13180 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+21:13:43.310 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+21:13:45.115 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+21:13:45.119 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+21:13:45.193 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45ms. Found 0 Redis repository interfaces.
+21:13:45.545 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$5424465] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:13:45.977 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+21:13:45.990 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:13:45.991 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:13:45.991 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+21:13:46.153 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:13:46.153 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2770 ms
+21:13:47.580 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+21:13:47.819 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+21:13:50.800 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+21:13:50.974 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+21:13:51.536 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+21:13:51.869 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+21:13:52.655 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:13:52.674 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+21:13:52.676 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+21:13:52.700 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+21:13:52.745 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+21:13:53.042 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+21:13:53.166 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#54895681:0/SimpleConnection@10b3ea72 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55816]
+21:13:53.279 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 10.571 seconds (JVM running for 15.26)
+21:14:59.885 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:14:59.886 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:14:59.897 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+21:15:35.561 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:15:36.000 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:16:14.542 [rabbitConnectionFactory1] INFO  c.e.f.m.service.MessagePushService - 消息确认:null
+21:20:52.965 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+21:20:53.808 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+21:20:54.425 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+21:20:54.427 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+21:20:55.501 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:20:55.522 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:21:06.019 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 1532 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+21:21:06.022 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+21:21:07.586 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+21:21:07.589 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+21:21:07.647 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 Redis repository interfaces.
+21:21:07.957 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$100850b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:21:08.413 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+21:21:08.426 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:21:08.427 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:21:08.427 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+21:21:08.582 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:21:08.582 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2494 ms
+21:21:09.965 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+21:21:10.208 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+21:21:12.751 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+21:21:12.918 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+21:21:13.500 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+21:21:13.652 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+21:21:14.132 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:21:14.153 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+21:21:14.154 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+21:21:14.179 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+21:21:14.222 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+21:21:14.562 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+21:21:14.686 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#307c59ea:0/SimpleConnection@66596c4c [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56159]
+21:21:14.788 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 9.437 seconds (JVM running for 11.303)
+21:21:33.250 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:21:33.251 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:21:33.260 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+21:21:33.494 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:21:33.919 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:21:44.327 [rabbitConnectionFactory1] INFO  c.e.f.m.service.MessagePushService - 消息确认:null
+21:26:15.995 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+21:26:16.595 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+21:26:17.301 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+21:26:17.307 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+15:42:13.192 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 7452 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+15:42:13.205 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+15:42:14.578 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+15:42:14.581 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:42:14.642 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 Redis repository interfaces.
+15:42:14.971 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$572bc669] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:15.364 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:42:15.376 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:42:15.376 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:42:15.377 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+15:42:15.528 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:42:15.528 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2265 ms
+15:42:16.712 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+15:42:16.926 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+15:42:19.250 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+15:42:19.404 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+15:42:19.898 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+15:42:20.024 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:42:20.449 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:42:20.466 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:42:20.467 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+15:42:20.489 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:42:20.526 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+15:42:20.791 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+15:42:20.885 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#282c4da0:0/SimpleConnection@78ea700f [delegate=amqp://guest@127.0.0.1:5672/, localPort= 62431]
+15:42:21.003 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 8.376 seconds (JVM running for 11.993)
+15:48:42.109 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:48:42.125 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:48:42.175 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 49 ms
+15:48:42.562 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:48:44.639 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:00:15.216 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+16:00:15.416 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+16:00:15.961 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+16:00:15.964 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+16:00:17.234 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:00:17.325 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:14:16.912 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.family.FamilyApplicationTests], using SpringBootContextLoader
+17:14:16.923 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.family.FamilyApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:14:16.924 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.family.FamilyApplicationTests]: FamilyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:14:17.182 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.family.FamilyApplication for test class com.example.family.FamilyApplicationTests
+17:14:17.352 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:14:17.379 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@b40bb6e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3a94964, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5049d8b2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6d0b5baf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@631e06ab, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2a3591c5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@34a75079, org.springframework.test.context.event.EventPublishingTestExecutionListener@346a361, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@107ed6fc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1643d68f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@186978a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2e029d61, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@482d776b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4052274f]
+17:14:18.029 [main] INFO  c.e.family.FamilyApplicationTests - Starting FamilyApplicationTests on DESKTOP-KBT6CGU with PID 2176 (started by celar in F:\ideawork\smart_family)
+17:14:18.030 [main] INFO  c.e.family.FamilyApplicationTests - No active profile set, falling back to default profiles: default
+17:14:19.917 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:14:19.922 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:14:20.011 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58ms. Found 0 Redis repository interfaces.
+17:14:20.554 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$86b7a0dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:14:22.757 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+17:14:22.995 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+17:14:27.004 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+17:14:27.290 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+17:14:28.625 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:14:29.307 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:14:30.522 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+17:14:30.776 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+17:14:30.838 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+17:14:31.304 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+17:14:31.487 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#2d2fc130:0/SimpleConnection@6cfac0bd [delegate=amqp://guest@127.0.0.1:5672/, localPort= 49643]
+17:14:31.633 [main] INFO  c.e.family.FamilyApplicationTests - Started FamilyApplicationTests in 14.179 seconds (JVM running for 18.117)
+17:14:32.188 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+17:14:32.635 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+17:14:32.639 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+17:14:32.640 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+17:16:26.975 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.family.FamilyApplicationTests], using SpringBootContextLoader
+17:16:27.025 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.family.FamilyApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:16:27.027 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.family.FamilyApplicationTests]: FamilyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:16:27.670 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.family.FamilyApplication for test class com.example.family.FamilyApplicationTests
+17:16:28.167 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:16:28.286 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@b40bb6e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3a94964, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5049d8b2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6d0b5baf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@631e06ab, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2a3591c5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@34a75079, org.springframework.test.context.event.EventPublishingTestExecutionListener@346a361, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@107ed6fc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1643d68f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@186978a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2e029d61, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@482d776b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4052274f]
+17:16:29.920 [main] INFO  c.e.family.FamilyApplicationTests - Starting FamilyApplicationTests on DESKTOP-KBT6CGU with PID 14648 (started by celar in F:\ideawork\smart_family)
+17:16:29.921 [main] INFO  c.e.family.FamilyApplicationTests - No active profile set, falling back to default profiles: default
+17:16:34.524 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:16:34.542 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:16:34.717 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111ms. Found 0 Redis repository interfaces.
+17:16:36.097 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$bca5503a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:16:40.570 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+17:16:41.395 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+17:16:49.742 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+17:16:50.470 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+17:16:54.486 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:16:57.294 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:17:01.055 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+17:17:01.951 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+17:17:02.191 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+17:17:03.468 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+17:17:04.062 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#30afb481:0/SimpleConnection@4b518645 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50069]
+17:17:04.460 [main] INFO  c.e.family.FamilyApplicationTests - Started FamilyApplicationTests in 35.932 seconds (JVM running for 41.747)
+17:17:05.652 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+17:17:06.404 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+17:17:06.483 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+17:17:06.487 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+17:19:15.359 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.family.FamilyApplicationTests], using SpringBootContextLoader
+17:19:15.380 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.family.FamilyApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:19:15.381 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.family.FamilyApplicationTests]: FamilyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:19:15.673 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.family.FamilyApplication for test class com.example.family.FamilyApplicationTests
+17:19:15.867 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:19:15.909 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@b40bb6e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3a94964, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5049d8b2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6d0b5baf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@631e06ab, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2a3591c5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@34a75079, org.springframework.test.context.event.EventPublishingTestExecutionListener@346a361, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@107ed6fc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1643d68f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@186978a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2e029d61, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@482d776b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4052274f]
+17:19:16.614 [main] INFO  c.e.family.FamilyApplicationTests - Starting FamilyApplicationTests on DESKTOP-KBT6CGU with PID 4808 (started by celar in F:\ideawork\smart_family)
+17:19:16.615 [main] INFO  c.e.family.FamilyApplicationTests - No active profile set, falling back to default profiles: default
+17:19:18.560 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:19:18.564 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:19:18.647 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 0 Redis repository interfaces.
+17:19:19.347 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$a172b067] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:19:21.337 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+17:19:21.846 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+17:19:26.329 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+17:19:26.588 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+17:19:28.082 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:19:28.820 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:19:30.449 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+17:19:31.020 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+17:19:31.086 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+17:19:31.714 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+17:19:31.916 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1752e45c:0/SimpleConnection@12051d38 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50167]
+17:19:32.098 [main] INFO  c.e.family.FamilyApplicationTests - Started FamilyApplicationTests in 16.093 seconds (JVM running for 18.788)
+17:19:32.694 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+17:19:33.086 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+17:19:33.090 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+17:19:33.091 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+17:25:48.145 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.family.FamilyApplicationTests], using SpringBootContextLoader
+17:25:48.193 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.family.FamilyApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:25:48.197 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.family.FamilyApplicationTests]: FamilyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:25:48.534 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.family.FamilyApplication for test class com.example.family.FamilyApplicationTests
+17:25:48.874 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:25:48.950 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@b40bb6e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3a94964, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5049d8b2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6d0b5baf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@631e06ab, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2a3591c5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@34a75079, org.springframework.test.context.event.EventPublishingTestExecutionListener@346a361, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@107ed6fc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1643d68f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@186978a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2e029d61, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@482d776b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4052274f]
+17:25:49.842 [main] INFO  c.e.family.FamilyApplicationTests - Starting FamilyApplicationTests on DESKTOP-KBT6CGU with PID 15600 (started by celar in F:\ideawork\smart_family)
+17:25:49.843 [main] INFO  c.e.family.FamilyApplicationTests - No active profile set, falling back to default profiles: default
+17:25:51.798 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:25:51.804 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:25:51.908 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62ms. Found 0 Redis repository interfaces.
+17:25:52.620 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$47e68a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:25:54.879 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+17:25:55.154 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+17:25:59.510 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+17:25:59.953 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+17:26:02.119 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:26:02.836 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:26:05.153 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+17:26:05.605 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+17:26:05.741 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+17:26:06.701 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+17:26:07.149 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1752e45c:0/SimpleConnection@1f229c40 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50350]
+17:26:07.512 [main] INFO  c.e.family.FamilyApplicationTests - Started FamilyApplicationTests in 18.453 seconds (JVM running for 21.481)
+17:26:08.147 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+17:26:08.473 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+17:26:08.476 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+17:26:08.476 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+17:26:48.415 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.family.FamilyApplicationTests], using SpringBootContextLoader
+17:26:48.431 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.family.FamilyApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:26:48.435 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.family.FamilyApplicationTests]: FamilyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:26:48.735 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.family.FamilyApplication for test class com.example.family.FamilyApplicationTests
+17:26:48.980 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:26:49.031 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@72a85671, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6722db6e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@18f20260, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4ae33a11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7a48e6e2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@b40bb6e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3a94964, org.springframework.test.context.event.EventPublishingTestExecutionListener@5049d8b2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6d0b5baf, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@631e06ab, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2a3591c5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@34a75079, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@346a361, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@107ed6fc]
+17:26:49.737 [main] INFO  c.e.family.FamilyApplicationTests - Starting FamilyApplicationTests on DESKTOP-KBT6CGU with PID 13964 (started by celar in F:\ideawork\smart_family)
+17:26:49.738 [main] INFO  c.e.family.FamilyApplicationTests - No active profile set, falling back to default profiles: default
+17:26:51.348 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:26:51.353 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:26:51.448 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69ms. Found 0 Redis repository interfaces.
+17:26:52.019 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$9c03ffec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:26:53.887 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+17:26:54.126 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+17:26:57.941 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+17:26:58.208 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+17:26:59.606 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:27:00.353 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:27:01.479 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+17:27:01.738 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+17:27:01.796 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+17:27:02.249 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+17:27:02.395 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7dd3981e:0/SimpleConnection@598f1faf [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50390]
+17:27:02.554 [main] INFO  c.e.family.FamilyApplicationTests - Started FamilyApplicationTests in 13.425 seconds (JVM running for 15.856)
+17:27:02.994 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+17:27:03.547 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+17:27:03.552 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+17:27:03.554 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+17:56:07.793 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.family.FamilyApplicationTests], using SpringBootContextLoader
+17:56:07.808 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.family.FamilyApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:56:07.810 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.family.FamilyApplicationTests]: FamilyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:56:08.097 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.family.FamilyApplication for test class com.example.family.FamilyApplicationTests
+17:56:08.287 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:56:08.332 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@72a85671, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6722db6e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@18f20260, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4ae33a11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7a48e6e2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@b40bb6e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3a94964, org.springframework.test.context.event.EventPublishingTestExecutionListener@5049d8b2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6d0b5baf, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@631e06ab, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2a3591c5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@34a75079, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@346a361, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@107ed6fc]
+17:56:08.963 [main] INFO  c.e.family.FamilyApplicationTests - Starting FamilyApplicationTests on DESKTOP-KBT6CGU with PID 1236 (started by celar in F:\ideawork\smart_family)
+17:56:08.964 [main] INFO  c.e.family.FamilyApplicationTests - No active profile set, falling back to default profiles: default
+17:56:10.465 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:56:10.471 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:56:10.580 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77ms. Found 0 Redis repository interfaces.
+17:56:11.091 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$d54ed431] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:56:12.086 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+17:56:12.159 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+17:56:12.231 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+17:56:12.275 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+17:56:18.282 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:56:19.042 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:56:20.383 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+17:56:20.420 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+17:56:20.475 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+17:56:20.923 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+17:56:21.048 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#27438750:0/SimpleConnection@52b6561b [delegate=amqp://guest@127.0.0.1:5672/, localPort= 49897]
+17:56:21.196 [main] INFO  c.e.family.FamilyApplicationTests - Started FamilyApplicationTests in 12.783 seconds (JVM running for 15.051)
+17:56:21.589 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:56:22.111 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:56:22.214 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+17:56:23.199 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+17:56:23.206 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+17:56:23.210 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+17:56:24.404 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:56:24.428 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:56:59.047 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 12104 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+17:56:59.050 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+17:57:00.099 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:57:00.101 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:57:00.154 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 0 Redis repository interfaces.
+17:57:00.441 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$e86cb1ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:57:00.811 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:57:00.823 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:57:00.824 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:57:00.824 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+17:57:00.969 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:57:00.969 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1852 ms
+17:57:01.414 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+17:57:01.468 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+17:57:01.500 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+17:57:01.527 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+17:57:05.218 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:57:05.326 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:57:05.731 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:57:05.749 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:57:05.750 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+17:57:05.769 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+17:57:05.806 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+17:57:06.069 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+17:57:06.115 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#589fb74d:0/SimpleConnection@18c60d81 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 49941]
+17:57:06.219 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 7.624 seconds (JVM running for 9.699)
+17:57:43.376 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:57:43.376 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:57:43.384 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+17:57:43.549 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:57:43.937 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:27:45.250 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+19:27:45.448 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+19:27:47.003 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+19:27:47.051 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+19:27:48.584 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:27:48.627 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+22:00:29.260 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 15376 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+22:00:29.284 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+22:00:30.971 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+22:00:30.975 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+22:00:31.036 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 0 Redis repository interfaces.
+22:00:31.391 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$7a98d35c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:00:31.837 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+22:00:31.862 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:00:31.863 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+22:00:31.863 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+22:00:32.526 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:00:32.530 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3172 ms
+22:00:33.279 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+22:00:33.378 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+22:00:33.439 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+22:00:33.497 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+22:00:38.112 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+22:00:38.226 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+22:00:38.687 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:00:38.704 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+22:00:38.705 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+22:00:38.726 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+22:00:38.764 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+22:00:39.057 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+22:00:39.127 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#664db2ca:0/SimpleConnection@5af4328e [delegate=amqp://guest@127.0.0.1:5672/, localPort= 60768]
+22:00:39.247 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 10.822 seconds (JVM running for 16.123)
+22:30:38.839 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+22:30:39.273 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+22:30:39.998 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+22:30:40.001 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+11:12:21.060 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 8608 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+11:12:21.080 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+11:12:22.823 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:12:22.827 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+11:12:22.889 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 Redis repository interfaces.
+11:12:23.313 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$434bdeb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:12:23.778 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:12:23.802 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:12:23.803 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:12:23.803 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+11:12:24.450 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:12:24.450 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3293 ms
+11:12:25.253 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+11:12:25.324 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+11:12:25.368 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+11:12:25.401 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+11:12:29.943 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:12:30.068 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:12:30.538 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:12:30.555 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:12:30.556 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+11:12:30.578 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+11:12:30.616 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+11:12:30.930 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+11:12:30.991 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#10fb4575:0/SimpleConnection@1382a7d8 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 60244]
+11:12:31.110 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 10.99 seconds (JVM running for 17.199)
+11:12:49.185 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:12:49.185 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:12:49.192 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+11:12:49.502 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:12:50.313 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:19:46.391 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s342ms260µs700ns).
+13:06:24.216 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m39s460ms177µs900ns).
+13:06:32.279 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - Channel shutdown: connection error
+13:06:32.281 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - Channel shutdown: connection error
+13:06:32.283 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - Channel shutdown: connection error
+13:06:33.236 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@690677de: tags=[[amq.ctag-ZqGvvBenX9A6V41ruWkhnA]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,2), conn: Proxy@568c9ee1 Shared Rabbit Connection: SimpleConnection@1382a7d8 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 60244], acknowledgeMode=MANUAL local queue size=0
+13:06:33.236 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@77e1dacd: tags=[[amq.ctag-qVa1xCiKCbRRxfzu1cFT0g]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,3), conn: Proxy@568c9ee1 Shared Rabbit Connection: SimpleConnection@1382a7d8 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 60244], acknowledgeMode=MANUAL local queue size=0
+13:06:33.236 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@16890f00: tags=[[amq.ctag-p_KQMMbv7QqcohdTvUZ1rQ]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@568c9ee1 Shared Rabbit Connection: SimpleConnection@1382a7d8 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 60244], acknowledgeMode=MANUAL local queue size=0
+13:06:33.263 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+13:06:44.223 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#10fb4575:1/SimpleConnection@36587fe7 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50629]
+13:28:00.640 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m21s880ms623µs900ns).
+13:28:00.657 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - Channel shutdown: connection error
+13:28:00.674 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - Channel shutdown: connection error
+13:28:00.676 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - Channel shutdown: connection error
+13:28:01.589 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@1e3480ff: tags=[[amq.ctag-t6gBenPPyvACsWPGqwSqRw]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,3), conn: Proxy@568c9ee1 Shared Rabbit Connection: SimpleConnection@36587fe7 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50629], acknowledgeMode=MANUAL local queue size=0
+13:28:01.589 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@1557155a: tags=[[amq.ctag-FQze5K7BKvw-E4SoOs3Rig]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,2), conn: Proxy@568c9ee1 Shared Rabbit Connection: SimpleConnection@36587fe7 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50629], acknowledgeMode=MANUAL local queue size=0
+13:28:01.589 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@6d4bd5f3: tags=[[amq.ctag-56gkcJlmdgJdVUwO7nR3Hg]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@568c9ee1 Shared Rabbit Connection: SimpleConnection@36587fe7 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50629], acknowledgeMode=MANUAL local queue size=0
+13:28:01.595 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+13:28:01.611 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#10fb4575:2/SimpleConnection@42cb21b5 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 51713]
+13:31:33.118 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m2s391ms338µs800ns).
+13:55:24.209 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+13:55:24.397 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+13:55:25.416 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+13:55:25.432 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+13:55:26.821 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:55:26.846 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:40:28.580 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 11884 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+15:40:28.642 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+15:40:30.579 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+15:40:30.583 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:40:30.645 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 Redis repository interfaces.
+15:40:31.012 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$e23f4f4b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:40:31.477 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:40:31.502 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:40:31.503 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:40:31.503 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+15:40:32.174 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:40:32.174 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3455 ms
+15:40:32.965 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+15:40:33.035 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+15:40:33.102 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+15:40:33.132 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+15:40:37.533 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+15:40:37.658 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:40:38.114 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:40:38.132 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:40:38.133 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+15:40:38.155 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:40:38.196 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+15:40:38.556 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+15:40:38.622 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#76a6f045:0/SimpleConnection@2b82018 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57469]
+15:40:38.745 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 12.354 seconds (JVM running for 25.718)
+15:42:36.919 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:42:36.921 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:42:36.934 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+15:42:37.210 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:42:38.175 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:55:09.678 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+15:55:09.977 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+15:55:10.655 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+15:55:10.661 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+15:55:11.842 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:55:11.880 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:14:17.372 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 8036 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+17:14:17.399 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+17:14:19.222 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:14:19.239 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:14:19.398 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95ms. Found 0 Redis repository interfaces.
+17:14:19.864 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$a8a5a28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:14:20.359 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:14:20.384 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:14:20.385 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:14:20.385 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+17:14:20.694 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:14:20.694 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3230 ms
+17:14:21.625 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+17:14:21.696 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+17:14:21.740 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+17:14:21.773 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+17:14:26.562 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:14:26.710 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:14:27.187 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:14:27.205 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:14:27.206 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+17:14:27.230 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+17:14:27.285 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+17:14:27.592 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+17:14:27.653 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7282af25:0/SimpleConnection@f6cde7e [delegate=amqp://guest@127.0.0.1:5672/, localPort= 61593]
+17:14:27.803 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 11.471 seconds (JVM running for 18.135)
+17:23:42.479 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:23:42.516 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:23:42.659 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 143 ms
+17:25:32.145 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:25:32.818 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:42:03.885 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+19:42:04.293 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+19:42:05.097 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+19:42:05.102 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+19:42:06.372 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:42:06.388 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:29:05.174 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 14320 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+15:29:05.207 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+15:29:06.901 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+15:29:06.905 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:29:06.966 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 Redis repository interfaces.
+15:29:07.386 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$d430bfa2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:29:07.899 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:29:07.923 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:29:07.924 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:29:07.925 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+15:29:08.288 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:29:08.289 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3031 ms
+15:29:09.032 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+15:29:09.106 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+15:29:09.146 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+15:29:09.190 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+15:29:14.132 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+15:29:14.259 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:29:14.837 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:29:14.855 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:29:14.856 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+15:29:14.879 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:29:14.918 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+15:29:15.203 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+15:29:15.266 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7bf018dd:0/SimpleConnection@10b3ea72 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 49497]
+15:29:15.387 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 11.197 seconds (JVM running for 16.106)
+15:30:03.511 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:30:03.511 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:30:03.518 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+15:30:03.833 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:30:05.700 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:18:26.641 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+19:18:27.466 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+19:18:28.226 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+19:18:28.241 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+19:18:29.460 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:18:29.498 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+19:18:43.965 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 8520 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+19:18:43.978 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+19:18:46.152 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+19:18:46.156 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+19:18:46.245 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 Redis repository interfaces.
+19:18:46.628 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$224517d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19:18:47.085 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+19:18:47.097 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+19:18:47.098 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:18:47.098 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+19:18:47.289 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:18:47.290 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3260 ms
+19:18:48.414 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+19:18:48.530 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+19:18:48.591 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+19:18:48.635 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+19:18:53.484 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+19:18:53.616 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+19:18:54.091 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+19:18:54.112 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+19:18:54.114 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+19:18:54.140 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+19:18:54.182 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+19:18:54.448 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+19:18:54.595 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#5514579e:0/SimpleConnection@5d75f90e [delegate=amqp://guest@127.0.0.1:5672/, localPort= 58914]
+19:18:54.700 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 11.369 seconds (JVM running for 13.675)
+19:19:10.488 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:19:10.489 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:19:10.500 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+19:19:10.999 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:19:11.422 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:21:25.032 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+19:21:25.164 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+19:21:25.754 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+19:21:25.757 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+19:21:26.921 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:21:27.044 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+19:21:35.540 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 10228 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+19:21:35.544 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+19:21:36.579 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+19:21:36.582 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+19:21:36.638 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 0 Redis repository interfaces.
+19:21:36.927 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$ff041638] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19:21:37.277 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+19:21:37.287 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+19:21:37.287 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:21:37.287 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+19:21:37.429 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:21:37.430 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1818 ms
+19:21:37.862 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+19:21:37.917 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+19:21:37.947 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+19:21:37.975 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+19:21:42.307 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+19:21:42.415 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+19:21:42.829 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+19:21:42.845 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+19:21:42.846 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+19:21:42.866 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+19:21:42.903 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+19:21:43.157 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+19:21:43.201 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#573aeab2:0/SimpleConnection@e97f51c [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59073]
+19:21:43.327 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 8.391 seconds (JVM running for 10.21)
+19:22:24.707 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:22:24.707 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:22:24.716 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+19:22:25.106 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:22:25.356 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:22:55.427 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+19:22:56.032 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+19:22:56.528 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+19:22:56.529 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+19:22:57.673 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:22:57.688 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:46:53.412 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 9772 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+10:46:53.439 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+10:46:55.288 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+10:46:55.292 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+10:46:55.363 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45ms. Found 0 Redis repository interfaces.
+10:46:55.752 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$57b5f68c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:46:56.430 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+10:46:56.454 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:46:56.463 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:46:56.464 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+10:46:56.927 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:46:56.927 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3387 ms
+10:46:57.662 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+10:46:57.736 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+10:46:57.788 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+10:46:57.844 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+10:47:03.677 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+10:47:03.809 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10:47:04.388 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:47:04.405 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+10:47:04.407 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+10:47:04.429 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+10:47:04.469 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+10:47:04.885 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+10:47:04.949 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#57b9389f:0/SimpleConnection@2914a328 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54907]
+10:47:05.111 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 12.645 seconds (JVM running for 22.659)
+10:48:45.644 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:48:45.658 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:48:45.667 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+10:48:45.934 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:49:02.850 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:32:53.822 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+12:32:53.924 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+12:32:54.609 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+12:32:54.624 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+12:32:55.879 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12:32:55.892 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+12:20:44.091 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 13864 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+12:20:44.119 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+12:20:46.011 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+12:20:46.018 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+12:20:46.090 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 Redis repository interfaces.
+12:20:46.495 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$6f7ed093] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:20:47.050 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:20:47.083 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+12:20:47.084 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:20:47.085 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+12:20:47.272 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:20:47.273 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3082 ms
+12:20:48.070 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+12:20:48.145 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+12:20:48.196 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+12:20:48.240 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+12:20:54.304 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+12:20:54.437 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:20:55.132 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+12:20:55.152 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:20:55.153 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+12:20:55.177 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+12:20:55.222 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+12:20:55.625 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+12:20:55.705 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#727986ad:0/SimpleConnection@78aa1753 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50382]
+12:20:55.844 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 12.563 seconds (JVM running for 17.304)
+12:26:12.020 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:26:12.020 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:26:12.031 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+12:26:12.291 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:26:13.469 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:08:44.494 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+13:08:44.915 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+13:08:45.517 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+13:08:45.520 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+13:08:46.716 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:08:46.732 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:02:05.738 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 11544 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+18:02:05.770 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+18:02:07.687 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+18:02:07.691 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:02:07.774 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 0 Redis repository interfaces.
+18:02:08.225 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$71a3c016] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:02:08.788 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:02:08.810 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:02:08.811 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:02:08.811 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+18:02:09.517 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:02:09.518 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3657 ms
+18:02:10.329 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+18:02:10.403 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+18:02:10.443 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+18:02:10.476 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+18:02:15.835 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+18:02:15.989 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:02:16.692 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:02:16.712 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:02:16.714 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+18:02:16.738 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+18:02:16.777 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+18:02:17.127 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+18:02:17.198 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#24197b13:0/SimpleConnection@4eb73cc8 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 62574]
+18:02:17.324 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 12.47 seconds (JVM running for 20.595)
+18:11:48.735 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:11:48.752 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:11:48.871 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 119 ms
+18:11:49.329 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:11:54.996 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:07:55.017 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m27s814ms600µs200ns).
+21:12:53.357 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+21:12:53.758 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+21:12:54.762 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+21:12:54.798 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+21:12:56.168 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:12:56.213 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:17:39.634 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 2836 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+21:17:39.658 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+21:17:41.319 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+21:17:41.322 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+21:17:41.385 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 Redis repository interfaces.
+21:17:41.710 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$4da9e063] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:17:42.188 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+21:17:42.212 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:17:42.213 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:17:42.213 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+21:17:42.710 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:17:42.710 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2977 ms
+21:17:43.500 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+21:17:43.596 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+21:17:43.635 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+21:17:43.668 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+21:17:49.508 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisKeyExpirationListener' defined in file [F:\ideawork\smart_family\target\classes\com\example\family\config\RedisKeyExpirationListener.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+21:17:50.749 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+21:17:50.789 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+21:17:50.819 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisKeyExpirationListener' defined in file [F:\ideawork\smart_family\target\classes\com\example\family\config\RedisKeyExpirationListener.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1794)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.example.family.FamilyApplication.main(FamilyApplication.java:12)
+Caused by: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1227)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1206)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:970)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:355)
+	at org.springframework.data.redis.listener.KeyspaceEventMessageListener.init(KeyspaceEventMessageListener.java:85)
+	at org.springframework.data.redis.listener.KeyspaceEventMessageListener.afterPropertiesSet(KeyspaceEventMessageListener.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+	... 17 common frames omitted
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:242)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:206)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1225)
+	... 24 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+21:19:09.947 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 11360 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+21:19:09.950 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+21:19:11.630 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+21:19:11.633 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+21:19:11.702 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52ms. Found 0 Redis repository interfaces.
+21:19:12.043 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$718b3305] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:19:12.497 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+21:19:12.521 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:19:12.522 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:19:12.522 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+21:19:12.954 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:19:12.954 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2938 ms
+21:19:13.745 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+21:19:13.826 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+21:19:13.866 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+21:19:13.898 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+21:19:19.140 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+21:19:19.267 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+21:19:19.766 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:19:19.783 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+21:19:19.784 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+21:19:19.806 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+21:19:19.845 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+21:19:20.157 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+21:19:20.221 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#727986ad:0/SimpleConnection@568c9ee1 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 63729]
+21:19:20.339 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 10.94 seconds (JVM running for 12.839)
+21:22:14.053 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:22:14.053 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:22:14.061 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+21:22:14.335 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:22:16.492 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:58:54.716 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+22:58:55.480 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+22:58:56.257 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+22:58:56.271 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+22:58:57.511 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:58:57.543 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:41:23.366 [main] WARN  org.apache.velocity.deprecation - configuration key 'file.resource.loader.unicode' has been deprecated in favor of 'resource.loader.file.unicode'
+17:41:23.389 [main] WARN  org.apache.velocity.deprecation - configuration key 'file.resource.loader.class' has been deprecated in favor of 'resource.loader.file.class'
+19:09:39.546 [main] WARN  org.apache.velocity.deprecation - configuration key 'file.resource.loader.unicode' has been deprecated in favor of 'resource.loader.file.unicode'
+19:09:39.559 [main] WARN  org.apache.velocity.deprecation - configuration key 'file.resource.loader.class' has been deprecated in favor of 'resource.loader.file.class'
+19:10:28.024 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 2284 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+19:10:28.028 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+19:10:29.739 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+19:10:29.742 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+19:10:29.807 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 Redis repository interfaces.
+19:10:30.136 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$a2718106] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19:10:30.534 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+19:10:30.546 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+19:10:30.547 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:10:30.547 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+19:10:30.728 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:10:30.728 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2637 ms
+19:10:31.327 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+19:10:31.474 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+19:10:31.529 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+19:10:31.575 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+19:10:36.144 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+19:10:36.260 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+19:10:36.708 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+19:10:36.726 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+19:10:36.728 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+19:10:36.751 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+19:10:36.791 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+19:10:37.074 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+19:10:37.152 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#5a4464c5:0/SimpleConnection@79631db0 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 58721]
+19:10:37.385 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 9.89 seconds (JVM running for 12.082)
+19:13:03.459 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:13:03.460 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:13:03.472 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+19:13:03.811 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:13:04.545 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:11:46.271 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m40s831ms615µs700ns).
+20:57:14.455 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+20:57:14.664 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+20:57:15.282 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+20:57:15.289 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+20:57:16.539 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:57:16.573 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:25:10.261 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 2888 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+11:25:10.301 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+11:25:11.993 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:25:11.997 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+11:25:12.071 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 0 Redis repository interfaces.
+11:25:12.404 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$d0298e8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:25:12.903 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:25:12.928 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:25:12.929 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:25:12.929 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+11:25:13.525 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:25:13.526 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3087 ms
+11:25:14.269 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+11:25:14.343 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+11:25:14.380 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+11:25:14.415 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+11:25:19.760 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:25:19.901 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:25:20.384 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:25:20.401 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:25:20.402 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+11:25:20.424 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+11:25:20.462 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+11:25:20.763 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+11:25:20.822 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#58c42c8c:0/SimpleConnection@225ac5e7 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 51885]
+11:25:20.945 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 11.692 seconds (JVM running for 17.764)
+11:27:24.394 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:27:24.394 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:27:24.401 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+11:27:24.711 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:27:25.572 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:38:14.500 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+13:38:15.356 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+13:38:15.951 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+13:38:15.963 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+13:38:17.164 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:38:17.179 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:20:40.354 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 20388 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+17:20:40.382 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+17:20:42.162 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:20:42.166 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:20:42.232 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 Redis repository interfaces.
+17:20:42.584 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$fbbfa7e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:20:43.105 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:20:43.130 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:20:43.139 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:20:43.140 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+17:20:43.492 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:20:43.492 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3015 ms
+17:20:44.227 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+17:20:44.301 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+17:20:44.339 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+17:20:44.374 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+17:20:49.738 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:20:49.889 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:20:50.397 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:20:50.414 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:20:50.415 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+17:20:50.438 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+17:20:50.499 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+17:20:50.809 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+17:20:50.896 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7af1d072:0/SimpleConnection@507f7cd1 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50440]
+17:20:51.025 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 11.451 seconds (JVM running for 18.006)
+17:25:10.369 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:25:10.402 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:25:10.452 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 49 ms
+17:25:10.772 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:25:11.630 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:38:29.592 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+20:38:30.063 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+20:38:30.831 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+20:38:30.844 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+20:38:32.064 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:38:32.079 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:57:02.150 [main] INFO  com.example.family.FamilyApplication - Starting FamilyApplication on DESKTOP-KBT6CGU with PID 18072 (F:\ideawork\smart_family\target\classes started by celar in F:\ideawork\smart_family)
+21:57:02.171 [main] INFO  com.example.family.FamilyApplication - No active profile set, falling back to default profiles: default
+21:57:03.916 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+21:57:03.920 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+21:57:03.992 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 0 Redis repository interfaces.
+21:57:04.329 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [com.example.family.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$29540b0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:57:04.802 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+21:57:04.827 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:57:04.836 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:57:04.837 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+21:57:05.211 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:57:05.211 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2954 ms
+21:57:05.980 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastItem".
+21:57:06.079 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.coast.entity.CoastList".
+21:57:06.139 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserInfo".
+21:57:06.195 [main] WARN  c.b.m.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.example.family.user.entity.UserType".
+21:57:11.577 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+21:57:11.712 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+21:57:12.417 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:57:12.444 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+21:57:12.446 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+21:57:12.477 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+21:57:12.531 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+21:57:12.995 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+21:57:13.060 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#5882b202:0/SimpleConnection@6f0ae0ee [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59467]
+21:57:13.207 [main] INFO  com.example.family.FamilyApplication - Started FamilyApplication in 12.02 seconds (JVM running for 20.055)
+22:00:00.945 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:00:00.950 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+22:00:01.040 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 90 ms
+22:00:01.654 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:00:04.193 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:38:16.099 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+22:38:17.030 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+22:38:17.721 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+22:38:17.734 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+22:38:18.960 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:38:18.976 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

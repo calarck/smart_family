@@ -34,6 +34,8 @@ public class UserType implements Serializable {
 
     private Long updateId;
 
+    private String address;
+
     private Integer isDelete;
 
 

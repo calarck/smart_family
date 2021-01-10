@@ -35,7 +35,7 @@ public class CodeGenerator {
 
         // 包配置
         PackageConfig pc = new PackageConfig();
-        pc.setParent("com.example.family.coast");
+        pc.setParent("com.example.family.user");
         mpg.setPackageInfo(pc);
 
 
@@ -48,7 +48,7 @@ public class CodeGenerator {
         strategy.setControllerMappingHyphenStyle(true);
         strategy.setTablePrefix(pc.getModuleName() + "_");
         //生成指定的表
-        strategy.setInclude(new String[]{"coast_item","coast_list"});
+        strategy.setInclude(new String[]{"user_info"});
 
         mpg.setStrategy(strategy);
 
